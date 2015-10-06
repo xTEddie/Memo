@@ -1,0 +1,42 @@
+- Activates tmux shortcut
+> [Ctrl+B]
+
+- List tmux sessions
+> tmux ls
+or
+> [Ctrl+B] + [s]
+
+- Create tmux new session
+> tmux new -s session-name
+or
+> tmux new
+
+- Kill tmux session
+> tmux kill-session -t [session_name]
+
+- Create window
+> [Ctrl+B] + [c]
+
+- Change window name
+> [Ctrl+B] + [:]
+
+- List windows
+> [Ctrl+B] + [w]
+
+- Open Previous window
+> [Ctrl+B] + [p]
+
+- Open Next window
+> [Ctrl+B] + [n]
+
+- Split window into column (vertically)
+> [Ctrl+B] + [%]
+
+- Split into row (horizontally)
+> [Ctrl+B] + [:] + [split-window]
+
+- Switch to another pane
+> [Ctrl-B] + [o]
+
+- Kill current pane
+> [Ctrl-B] + [b]
