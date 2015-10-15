@@ -4,39 +4,48 @@
 - List tmux sessions
 > tmux ls
 or
-> [Ctrl+B] + [s]
+> [Ctrl+B] + s
 
 - Create tmux new session
 > tmux new -s session-name
 or
 > tmux new
 
+- Change session name
+> [Ctrl+B] + $
+
 - Kill tmux session
 > tmux kill-session -t [session_name]
 
 - Create window
-> [Ctrl+B] + [c]
+> [Ctrl+B] + c
 
 - Change window name
-> [Ctrl+B] + [:]
+> [Ctrl+B] + :
 
 - List windows
-> [Ctrl+B] + [w]
+> [Ctrl+B] + w
 
 - Open Previous window
-> [Ctrl+B] + [p]
+> [Ctrl+B] + p
 
 - Open Next window
-> [Ctrl+B] + [n]
+> [Ctrl+B] + n
 
 - Split window into column (vertically)
-> [Ctrl+B] + [%]
+> [Ctrl+B] + %
 
 - Split into row (horizontally)
-> [Ctrl+B] + [:] + [split-window]
+> [Ctrl+B] + : + "split-window"
 
 - Switch to another pane
-> [Ctrl-B] + [o]
+> [Ctrl-B] + o
 
 - Kill current pane
-> [Ctrl-B] + [b]
+> [Ctrl-B] + x
+
+- Activate scroll mode
+> [Ctrl-B] + [
+
+- Quit scroll mode
+> q

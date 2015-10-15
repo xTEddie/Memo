@@ -1,0 +1,4 @@
+GitGutter
+Package Control
+Side Bar
+Anaconda
