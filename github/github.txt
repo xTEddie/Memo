@@ -1,0 +1,3 @@
+- Python Dependencies Setup
+> cat dependencies.txt | xargs sudo apt-get install -y
+> sudo pip install -r pip_dependencies.txt
