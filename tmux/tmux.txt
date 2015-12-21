@@ -11,6 +11,9 @@ or
 or
 > tmux new
 
+- Get in a existing tmux session
+> tmux attach
+
 - Change session name
 > [Ctrl+B] + $
 
