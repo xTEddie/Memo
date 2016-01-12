@@ -1,0 +1,13 @@
+Install guest access package
+	sudo apt-get install virtualbox-guest-dkms 
+	Note: You might get some "System program problem detected" window everytime you use the virtual machine.
+Remove package to take pictures and videos from webcam widgets which might cause some dependency issues.
+	sudo apt-get remove libcheese-gtk23
+Install X server (a dependency for X11 guest utilities)
+	sudo apt-get install xserver-xorg-core
+Install the X11 guest utilities for VirtualBox
+	sudo apt-get install virtualbox-guest-x11
+Install the non-X11 guest utilities for VirtualBox
+	sudo apt-get install virtualbox-guest-utils
+	Note: This might be already been installed.
+ 
