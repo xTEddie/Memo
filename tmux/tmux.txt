@@ -24,7 +24,7 @@ or
 > [Ctrl+B] + c
 
 - Change window name
-> [Ctrl+B] + :
+> [Ctrl+B] + ,
 
 - List windows
 > [Ctrl+B] + w
