@@ -1,3 +1,9 @@
 - Python Dependencies Setup
 > cat dependencies.txt | xargs sudo apt-get install -y
 > sudo pip install -r pip_dependencies.txt
+
+- Count number of commits on branch
+> git rev-list -- count [branch_name]
+
+- Pull non-existing branch on local from remote
+> git checkout -b [branch_name] [remote_branch_name]
