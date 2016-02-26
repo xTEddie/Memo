@@ -1,13 +1,13 @@
 ECHO OFF
 
 :: Variables
+SET vbox_name=%1
 SET wifi_device="Intel(R) Centrino(R) Ultimate-N 6300 AGN"
 SET ethernet_device="Intel(R) Ethernet Connection I217-LM"
 SET iso_file="%HOMEPATH%\VirtualBox VMs\ubuntu-14.04.3-desktop-amd64.iso"
 SET vdi_file="%HOMEPATH%\VirtualBox VMs\%vbox_name%\%vbox_name%.vdi"
 SET shared_folder_name=VM_Shared_Folder
 SET shared_folder="C:%HOMEPATH%\Desktop\%shared_folder_name%"
-SET vbox_name=%1
 SET ram=11350
 SET mem=102400
 
