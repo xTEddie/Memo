@@ -7,3 +7,6 @@
 
 - Pull non-existing branch on local from remote
 > git checkout -b [branch_name] [remote_branch_name]
+
+- Undo a commit on local
+> git reset HEAD~1
