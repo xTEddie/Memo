@@ -1,0 +1,35 @@
+- Going on insert mode
+> [i]
+
+- Save without exiting
+> [:w!]
+
+- Exit without saving
+> [:q!]
+
+- Move left, down, up, right in file (not in insert mode)
+> [h], [j], [k], [l]
+
+- Move to the start of the next word
+> [w]
+
+- Move to the end of the word
+> [e]
+
+- Move to the beginning of the word
+> [b]
+
+- Combining movement keys with a number (Pressing w 3 times)
+> [3] + [w]
+
+- Insert text multiple times (Write Hello 3 times)
+> 3 + [i] + 'Hello' + [Esc]
+
+- Find next occurrence of a character
+> [f] + [character]
+
+- Find previous occurence of a character
+> [F] + [character]
+
+- Find [x] occurence of a character
+> [x] + [f] + [character]
