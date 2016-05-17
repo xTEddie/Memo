@@ -1,6 +1,18 @@
 - Going on insert mode
 > [i]
 
+- Insert text after a new line (will go to insert mode automatically)
+> [o]
+
+- Insert text above the current line (will go insert mode automatically)
+> [O]
+
+- Delete character on the cursor
+> [x] 
+
+- Replace character on the cursor 
+> [r]
+
 - Save without exiting
 > [:w!]
 
@@ -33,3 +45,30 @@
 
 - Find [x] occurence of a character
 > [x] + [f] + [character]
+
+- Search text (Press n for next occurence and N for previous occurence)
+> [/] + [text]
+
+- Jump to matching parenthesis or brackets
+> [%]
+
+- Go to beginning of the file
+> [g] + [g]
+
+- Go to the end of the file
+> [G]
+
+- Go the a specific line of the file
+> [line] + [G]
+
+- Reach the beginning of a line
+> [0]
+
+- Reach the end of a line
+> [$]
+
+- Find the NEXT occurence of the word under cursor
+> [*]
+
+- Find the PREVIOUS occurence of the word under cursor
+> [#]
