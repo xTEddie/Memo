@@ -1,12 +1,87 @@
+- Set name to attach on every commit transactions
+> git config --global user.name "[name]"
+
+- Set email to attach on every commit transactions
+> git config --global user.email "[email]"
+
+- Enable useful colorization of command line output
+> git config --global color.ui auto
+
+- Download project to local
+> git clone [remote_url]
+
+- Add another remote url on local
+> git remote add [remote_name] [remote_url]
+
 - Python Dependencies Setup
 > cat dependencies.txt | xargs sudo apt-get install -y
 > sudo pip install -r pip_dependencies.txt
 
-- Count number of commits on branch
-> git rev-list -- count [branch_name]
+- Download all history of repository
+> git fetch [remote_name]
+
+- Merge changes to current branch
+> git merge [branch_name]
+
+- Download all history and merge changes
+> git pull [remote_name] [branch_name]
+
+- Upload all commits to GitHub
+> git push [remote_name] [branch_name]
+
+- Delete branch on remote
+> git push [remote_name] :[branch_name]
+
+- Create new branch and switch to it
+> git checkout -b [new_branch_name]
 
 - Pull non-existing branch on local from remote
 > git checkout -b [branch_name] [remote_branch_name]
 
+- Delete branch on local
+> git branch -d [branch_name]
+
+- Force delete branch on local
+> git branch -D [branch_name]
+
+- Add file to be tracked for commit
+> git add [file]
+
+- Update all files that are tracked to be commited
+> git add -u
+
+- Undo all changes of the file to the latest commit
+> git checkout [file_name]
+
+- Record tracked files in history
+> git commit -m "[message]"
+
 - Undo a commit on local
 > git reset HEAD~1
+
+- Count number of commits on branch
+> git rev-list -- count [branch_name]
+
+- Show history
+> git log
+
+- Compare branches
+> git diff [first_branch] [second_branch]
+
+- Compare file with the last commit
+> git diff [file_name]
+
+- Temporarily store all modified tracked files
+> git stash
+
+- Restore most recently stashed files
+> git stash pop
+
+- Restore specific stashed files
+> git stash pop "[stash_name]"
+
+- List all stashed changes
+> git stash list
+
+- Discard latest stashed change
+> git stash drop
