@@ -1,0 +1,23 @@
+- Run mongo
+> mongo
+
+- List all DBs
+> show dbs
+
+- Use specific DB name
+> use [db_name]
+
+- List all tables
+> show tables
+
+- Select data from specific table
+> db.[table_name].find();
+
+- Select data from specific table with certain fields
+> db.[table_name].find({field1: <value>, ...});
+
+- Update data from specific table (NOTICE: [update] is going to OVERWRITE everything, so make sure to include all fields including the new changes)
+> db.[table_name].update(
+    [query],
+    [update]
+)
