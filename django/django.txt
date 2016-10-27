@@ -1,0 +1,12 @@
+- Creates Super User to access /admin page
+> python manage.py createsuperuser
+
+- Create migraton for changes
+> python manage.py makemigrations
+
+- Apply changes to DB
+> python manage.py migrate
+
+- Run Server
+python manage.py runserver
+
