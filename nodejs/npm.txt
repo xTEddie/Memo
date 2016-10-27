@@ -1,0 +1,5 @@
+- Show all the packages installed
+> npm ls -g
+
+- Install files from package.json
+> npm install --saved-dev
