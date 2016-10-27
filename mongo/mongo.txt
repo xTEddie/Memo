@@ -21,3 +21,9 @@
     [query],
     [update]
 )
+
+- Replace or create data of one specific field from table
+> db.[table_name].update{
+    [query],
+    {$set: [fields]}
+}
