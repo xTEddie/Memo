@@ -1,0 +1,17 @@
+- Count number of files on the current directory
+> ls | wc -l
+
+- Generate ssh key
+> ssh-keygen -t rsa
+
+- Copy specific user's ssh key to remote
+> cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
+
+- Copy current user ssh key to remote
+> ssh-copy-id user@hostname
+
+- Restart Nginx
+> sudo service nginx restart
+
+- Renew certificate
+> certbot-auto certonly --standalone -d hostname
