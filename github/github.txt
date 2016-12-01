@@ -35,8 +35,10 @@
 - Create new branch and switch to it
 > git checkout -b [new_branch_name]
 
-- Pull non-existing branch on local from remote
+- Pull non-existing branch on local from remote (a fetch is require to update git history)
 > git checkout -b [branch_name] [remote_branch_name]
+OR
+> git checkout [branch_name]
 
 - Delete branch on local
 > git branch -d [branch_name]
