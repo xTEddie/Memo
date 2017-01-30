@@ -15,3 +15,6 @@
 
 - Renew certificate
 > certbot-auto certonly --standalone -d hostname
+
+- Check who logged in the system
+> last -a
