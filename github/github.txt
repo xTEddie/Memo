@@ -87,3 +87,13 @@ OR
 
 - Discard latest stashed change
 > git stash drop
+
+- Create tag
+> git tag [tag_name]
+
+- Push tag to server
+> git push [remote_name] [tag_name]
+
+- Output all logs to a .csv file
+> git log --pretty=format:'"%h","%an","%aD","%s",' --shortstat --no-merges | paste - - - > log.csv
+
