@@ -27,3 +27,9 @@
     [query],
     {$set: [fields]}
 }
+
+- Dump .bson backup to .json
+> bsondump collection.bson > collection.json
+
+- Import .json in DB
+> mongoimport -d <dbname> -c <collection> < collection.json
