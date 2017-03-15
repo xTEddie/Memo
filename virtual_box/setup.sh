@@ -18,6 +18,8 @@ sudo apt-get install zsh -y
 sudo apt-get install postgresql postgresql-contrib -y
 sudo apt-get install apache2 -y 
 sudo apt-get install php -y
+sudo apt-get install mongodb -y
+sudo apt-get install nodejs -y
 
 # Install XUbuntu
 sudo apt-get install xubuntu-desktop -y
