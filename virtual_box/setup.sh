@@ -20,6 +20,8 @@ sudo apt-get install apache2 -y
 sudo apt-get install php -y
 sudo apt-get install mongodb -y
 sudo apt-get install nodejs -y
+sudo apt-get install python-pip
+pip install virtualenv
 
 # Install XUbuntu
 sudo apt-get install xubuntu-desktop -y
