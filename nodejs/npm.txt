@@ -1,5 +1,11 @@
+- Create package.json file
+> npm init
+
 - Show all the packages installed
 > npm ls -g
 
-- Install files from package.json
-> npm install --saved-dev
+- Install package and save as dependency in package.json
+> npm install [package_name] --saved
+
+- Install package and save as devDependency in package.json
+> npm install [package_name] --saved-dev
