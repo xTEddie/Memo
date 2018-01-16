@@ -1,0 +1,18 @@
+// Start server
+sudo service nginx start
+
+// Stop server
+sudo service nginx stop
+
+// Restart server
+sudo service nginx restart
+
+// Proxy Pass
+uwsgi --http :8000 --home /venv/darthvendor --module backend.config.apache_wsgi    
+
+// UWSGI pass unix://[]
+uwsgi --socket darthvendor.socket --home /venv/darthvendor --wsgi-file /venv/darthvendor/SOEN343_GroupProject/backend/config/apache_wsgi.py --chmod-socket=777
+
+// UWSGI pass unix://[]
+uwsgi -s darthvendor.socket --ini uwsgi.ini                                      
+
