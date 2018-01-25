@@ -21,3 +21,9 @@
 
 - Get list of process
 > ps -el
+
+- Get list of process which uses the most memory
+> ps aux --sort=-%mem | awk 'NR<=10{print $0}'
+
+- Get list of ports used
+> netstat -nulpt
