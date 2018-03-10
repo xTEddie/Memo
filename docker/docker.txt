@@ -1,0 +1,43 @@
+- Display system info
+> docker info
+
+- Fetch image from Docker registry & Save in system
+> docker pull [image]
+
+- List docker images
+> docker images
+
+- Remove image
+> docker rmi [image]
+
+- List containers
+> docker container ls
+OR
+> docker ps
+
+- List stopped containers
+> docker ps --filter "status=exited"
+
+- Run container
+> docker run [image]
+
+- Run container interactively
+> docker run -it [image] 
+
+- Stop docker image running in the background
+> docker stop [image]
+
+- Remove docker image running in the background
+> docker rm [image]
+
+- Remove all stopped containers
+> docker container prune
+
+- Build image
+> docker build -t [tag_name] [directory]
+
+- Create network
+> docker network create [name]
+
+- Inspect network
+> docker inspect [name]
