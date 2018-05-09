@@ -21,14 +21,17 @@ OR
 - Run container
 > docker run [image]
 
-- Run container interactively
-> docker run -it [image] 
+- Run new container interactively
+> docker run -it [image]
 
-- Stop docker image running in the background
-> docker stop [image]
+- Run existing container interactively
+> docker exec -it [container] bash
 
-- Remove docker image running in the background
-> docker rm [image]
+- Stop docker container running in the background
+> docker stop [container]
+
+- Remove docker container running in the background
+> docker rm [container]
 
 - Remove all stopped containers
 > docker container prune
@@ -41,3 +44,6 @@ OR
 
 - Inspect network
 > docker inspect [name]
+
+- Check logs
+> docker logs [name]
