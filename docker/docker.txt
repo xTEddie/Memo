@@ -10,6 +10,9 @@
 - Remove image
 > docker rmi [image]
 
+- Remove images of specific pattern
+> docker images -a | grep "[pattern]" | awk '{print $3}' | xargs docker rmi
+
 - List containers
 > docker container ls
 OR
