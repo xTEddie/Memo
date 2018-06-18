@@ -27,8 +27,11 @@ OR
 - Run new container interactively
 > docker run -it [image]
 
-- Run existing container interactively
+- Run existing running container interactively
 > docker exec -it [container] bash
+
+- Rerun existing exited container
+> docker start -i [container]
 
 - Stop docker container running in the background
 > docker stop [container]
