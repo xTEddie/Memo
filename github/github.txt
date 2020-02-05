@@ -20,6 +20,9 @@
 - Download all history of repository
 > git fetch [remote_name]
 
+- Clean up outdated branches
+> git fetch [remote_name] --prune
+
 - Merge changes to current branch
 > git merge [branch_name]
 
